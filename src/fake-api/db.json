@@ -1,0 +1,206 @@
+{
+  "users": [
+    {
+      "fullName": "Super Admin",
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "admin",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "fullName": "Super User",
+      "username": "user",
+      "email": "user@mail.com",
+      "password": "user",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "fullName": "",
+      "username": "",
+      "email": "",
+      "password": "",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "fullName": "gladis",
+      "username": "gladis",
+      "email": "gladis@mail.com",
+      "password": "gladis",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "fullName": "baba",
+      "username": "baba",
+      "email": "baba@mail.com",
+      "password": "baba",
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Beras",
+      "price": 8800,
+      "productImage": "https://static.republika.co.id/uploads/images/inpicture_slide/beras_200607115032-766.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 2,
+      "productName": "Gula pasir",
+      "price": 9100,
+      "productImage": "https://d324bm9stwnv8c.cloudfront.net/Pemanis_Rendah_Kalori_Sebagai_Pengganti_Gula_Pasir,_Amankah-halodoc.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 3,
+      "productName": "Minyak goreng",
+      "price": 12500,
+      "productImage": "https://awsimages.detik.net.id/community/media/visual/2021/11/17/meredam-gejolak-harga-minyak-goreng_169.jpeg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 4,
+      "productName": "Mentega",
+      "price": 500,
+      "productImage": "https://s2.bukalapak.com/bukalapak-kontenz-production/content_attachments/54017/original/BLOWUP.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 5,
+      "productName": "Daging sapi",
+      "price": 120000,
+      "productImage": "https://imgx.parapuan.co/crop/0x0:0x0/x/photo/2021/07/03/fresh-and-raw-meat-sirloin-medal-20210703041042.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 6,
+      "productName": "Daging ayam",
+      "price": 18000,
+      "productImage": "https://asset.kompas.com/crops/BpY2l8NQHMS5EMP9hizzGcmW1bs=/0x5:900x605/750x500/data/photo/2018/07/16/1439370499.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 7,
+      "productName": "Telur ayam",
+      "price": 18000,
+      "productImage": "https://asset.kompas.com/crops/WYVtX9H9wYlXZDwLmMqHiw2ZJc4=/0x7:740x500/750x500/data/photo/2020/11/13/5fae4aae98da3.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 8,
+      "productName": "Susu",
+      "price": 500,
+      "productImage": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1611805272/attached_image/menguak-manfaat-susu-unta-yang-menyehatkan.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 9,
+      "productName": "Bawang merah",
+      "price": 15000,
+      "productImage": "https://image-cdn.medkomtek.com/WrYJ-ykt_RTjR-H9Zd-8TpkuFJo=/1200x675/smart/klikdokter-media-buckets/medias/2322041/original/052222900_1607682083-Manfaat-Bawang-Merah_-Antialergi-hingga-Menurunkan-Risiko-Kanker-shutterstock_1724962108.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 10,
+      "productName": "Bawang putih",
+      "price": 18300,
+      "productImage": "https://asset.kompas.com/crops/sXEw3FBlTkVTuxwe-UciR-Jvt7I=/0x0:1918x1279/750x500/data/photo/2021/04/26/6086604247789.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 11,
+      "productName": "Garam",
+      "price": 13000,
+      "productImage": "https://d1bpj0tv6vfxyp.cloudfront.net/ketahu5jenisgaramdanmanfaatnyauntukkesehatanhalodoc.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 12,
+      "productName": "Minyak tanah",
+      "price": 13000,
+      "productImage": "https://www.topsatu.com/wp-content/uploads/2020/01/minyak.png",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 13,
+      "productName": "Gas elpiji",
+      "price": 500,
+      "productImage": "https://pict-b.sindonews.net/dyn/620/pena/news/2021/04/13/171/395612/ramadhan-hingga-idul-fitri-stok-gas-elpiji-di-depok-dijamin-aman-dan-harga-tetap-djd.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 14,
+      "productName": "Jagung",
+      "price": 3400,
+      "productImage": "https://asset.kompas.com/crops/SUtUYLeiCclWljut0zrslqBE7HM=/0x0:1000x667/750x500/data/photo/2021/10/04/615a966655301.jpg",
+      "description": "Makan jagung itu sehat.",
+      "category": "sayur"
+    },
+    {
+      "id": 15,
+      "productName": "Kedelai",
+      "price": 8500,
+      "productImage": "https://image-cdn.medkomtek.com/ClRw2ik-rCj19k_vcudj3qSpgkc=/1200x675/smart/klikdokter-media-buckets/medias/2308918/original/053780800_1571798592-Kedelai-Biji-bijian-dengan-Beragam-Manfaat-By-nnattalli-shutterstock.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "bahanpokok"
+    },
+    {
+      "id": 16,
+      "productName": "Ikan",
+      "price": 13000,
+      "productImage": "https://d1bpj0tv6vfxyp.cloudfront.net/ketahu5jenisgaramdanmanfaatnyauntukkesehatanhalodoc.jpg",
+      "description": "Ayo makan ikan, nanti saya tenggelamkan.",
+      "category": "ikan"
+    },
+    {
+      "id": 17,
+      "productName": "Udang",
+      "price": 13000,
+      "productImage": "https://www.topsatu.com/wp-content/uploads/2020/01/minyak.png",
+      "description": "Makan seafood.",
+      "category": "seafood"
+    },
+    {
+      "id": 18,
+      "productName": "Jeruk",
+      "price": 500,
+      "productImage": "https://pict-b.sindonews.net/dyn/620/pena/news/2021/04/13/171/395612/ramadhan-hingga-idul-fitri-stok-gas-elpiji-di-depok-dijamin-aman-dan-harga-tetap-djd.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "buah"
+    },
+    {
+      "id": 19,
+      "productName": "Stroberi",
+      "price": 3400,
+      "productImage": "https://asset.kompas.com/crops/SUtUYLeiCclWljut0zrslqBE7HM=/0x0:1000x667/750x500/data/photo/2021/10/04/615a966655301.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "buah"
+    },
+    {
+      "id": 20,
+      "productName": "Wortel",
+      "price": 8500,
+      "productImage": "https://image-cdn.medkomtek.com/ClRw2ik-rCj19k_vcudj3qSpgkc=/1200x675/smart/klikdokter-media-buckets/medias/2308918/original/053780800_1571798592-Kedelai-Biji-bijian-dengan-Beragam-Manfaat-By-nnattalli-shutterstock.jpg",
+      "description": "Beras untuk dimasak menjadi nasi.",
+      "category": "sayur"
+    }
+  ]
+}

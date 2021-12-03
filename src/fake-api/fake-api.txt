@@ -1,0 +1,5 @@
+cd FrontEnd/src/fake-api
+npx json-server db.json -p 2000
+
+cd FrontEnd
+npm start
