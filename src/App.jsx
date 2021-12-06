@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../src/assets/styles/sb-admin.css";
 import "../src/assets/styles/sb-admin.min.css";
 
-
 import Home from "./pages/Home";
 import Admin from "./pages/Admin";
-import Login from "./pages/Auth/Login";
-import Register from "./pages/Auth/Register";
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
+import ForgotPassword from "./pages/ForgotPassword";
 import ProductDetail from './pages/ProductDetail';
 import MyNavbar from "./components/MyNavbar";
 import Footer from "./components/Footer";
@@ -38,7 +38,8 @@ class App extends React.Component {
           <MyNavbar />
             <Switch>
               <Route component={Login} path="/login" />
-              <Route component={Register} path="/register" />
+              <Route component={Register} path="/register"/>
+              <Route component={ForgotPassword} path="/forgotpassword"/>
               <Route component={Admin} path="/admin" />
               <Route component={History} path="/history" />
               <Route component={ProductDetail} path="/product-detail/:productId" />

@@ -3,3 +3,8 @@ npx json-server db.json -p 2000
 
 cd FrontEnd
 npm start
+
+cd src/fake-api
+npx json-server db.json -p 2000
+
+npm start

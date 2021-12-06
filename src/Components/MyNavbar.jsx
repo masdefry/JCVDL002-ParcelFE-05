@@ -39,7 +39,9 @@ render() {
                                 </DropdownToggle>
                                 <DropdownMenu end>
                                     <DropdownItem>
-                                        <Link to="/cart">Cart (0)</Link>
+                                        <Link to="/cart">Cart
+                                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                                        </Link>
                                     </DropdownItem>
                                     <DropdownItem>
                                         <Link to="/history">History</Link>
