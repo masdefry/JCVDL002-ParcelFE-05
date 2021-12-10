@@ -1,102 +1,111 @@
-import Axios from 'axios';
-import { API_URL } from '../../constants/API'
+import Axios from "axios";
+import { API_URL } from "../../constants/API";
 
 export const registerUser = ({ fullName, username, email, password }) => {
   return (dispatch) => {
-      Axios.post(`${API_URL}/users`, {
-        fullName,
-        username,
-        email,
-        password,
-        role: "user",
-      })
+    Axios.post(`${API_URL}/users`, {
+      fullName: fullName,
+      username: username,
+      email: email,
+      password: password,
+      role: "user",
+    })
       .then((result) => {
-        delete result.data.password
+        delete result.data.password;
+        console.log("dump",result);
 
         dispatch({
           type: "USER_LOGIN",
-          payload: result.data
-        })
-        alert("Berhasil mendaftarkan user!")
+          payload: result.data,
+        });
+        alert("Registered successfully");
       })
-      .catch(() => {
-        alert("Gagal mendaftarkan user!")
-      })
-  }
-}
+      .catch((err) => {
+        alert("Register failed!");
+      });
+  };
+};
 
 export const loginUser = ({ username, password }) => {
   return (dispatch) => {
     Axios.get(`${API_URL}/users`, {
       params: {
         username,
-      }
+      },
     })
-    .then((result) => {
-      if (result.data.length) {
-        if (password === result.data[0].password) {
-          delete result.data[0].password
+      .then((result) => {
+        if (result.data.length) {
+          if (password === result.data[0].password) {
+            delete result.data[0].password;
 
-          localStorage.setItem("userDataFinalProject", JSON.stringify(result.data[0]))
+            console.log("userLogin");
+            console.log(result.data[0]);
 
-          dispatch({
-            type: "USER_LOGIN",
-            payload: result.data[0]
-          })
+            localStorage.setItem(
+              "userDataFinalProject",
+              JSON.stringify(result.data[0])
+            );
+
+            dispatch({
+              type: "USER_LOGIN",
+              payload: result.data[0],
+            });
+          } else {
+            //error wrong password
+            dispatch({
+              type: "USER_ERROR",
+              payload: "Wrong password!",
+            });
+          }
         } else {
-          // Handle error wrong password
+          //handle error username not found
           dispatch({
             type: "USER_ERROR",
-            payload: "Wrong password!"
-          })
+            payload: "Username not found!",
+          });
         }
-      } else {
-        // Handle error username not found
-        dispatch({
-          type: "USER_ERROR",
-          payload: "User not found",
-        })
-      }
-    })
-    .catch((err) => {
-      alert("Terjadi kesalahn di server")
-    })
-  }
-}
+      })
+      .catch((err) => {
+        alert("Theres an error on the server, please try again");
+      });
+  };
+};
 
 export const logoutUser = () => {
   localStorage.removeItem("userDataFinalProject");
 
   return {
-    type: "USER_LOGOUT"
-  }
-}
+    type: "USER_LOGOUT",
+  };
+};
 
 export const userKeepLogin = (userData) => {
   return (dispatch) => {
     Axios.get(`${API_URL}/users`, {
       params: {
-        id: userData.id
-      }
+        id: userData.id,
+      },
     })
-    .then((result) => {
-      delete result.data[0].password
+      .then((result) => {
+        console.log("userKeepLogin");
+        console.log(userData);
+        delete result.data[0].password;
 
-      localStorage.setItem("userDataFinalProject", JSON.stringify(result.data[0]))
+        localStorage.setItem("userDataFinalProject", JSON.stringify(result.data[0]));
 
-      dispatch({
-        type: "USER_LOGIN",
-        payload: result.data[0]
+        dispatch({
+          type: "USER_LOGIN",
+          payload: userData,
+        });
       })
-    })
-    .catch(() => {
-      alert("Terjadi kesalahan di server")
-    })
-  }
-}
+      .catch((err) => {
+        alert("Theres an error");
+      });
+  };
+};
 
 export const checkStorage = () => {
   return {
     type: "CHECK_STORAGE",
-  }
-}
+  };
+};

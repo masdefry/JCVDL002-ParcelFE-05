@@ -39,6 +39,30 @@
       "password": "baba",
       "role": "user",
       "id": 5
+    },
+    {
+      "fullName": "khairunisa",
+      "username": "nisa",
+      "email": "nisa@email.com",
+      "password": "purwadhika",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "fullName": "nisa",
+      "username": "nisa",
+      "email": "nisa@email.com",
+      "password": "nisa",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "fullName": "masdefrey",
+      "username": "masdefry",
+      "email": "masdefry@mail.com",
+      "password": "masdefry",
+      "role": "user",
+      "id": 8
     }
   ],
   "products": [
