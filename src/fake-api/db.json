@@ -15,54 +15,6 @@
       "password": "user",
       "role": "user",
       "id": 2
-    },
-    {
-      "fullName": "",
-      "username": "",
-      "email": "",
-      "password": "",
-      "role": "user",
-      "id": 3
-    },
-    {
-      "fullName": "gladis",
-      "username": "gladis",
-      "email": "gladis@mail.com",
-      "password": "gladis",
-      "role": "user",
-      "id": 4
-    },
-    {
-      "fullName": "baba",
-      "username": "baba",
-      "email": "baba@mail.com",
-      "password": "baba",
-      "role": "user",
-      "id": 5
-    },
-    {
-      "fullName": "khairunisa",
-      "username": "nisa",
-      "email": "nisa@email.com",
-      "password": "purwadhika",
-      "role": "user",
-      "id": 6
-    },
-    {
-      "fullName": "nisa",
-      "username": "nisa",
-      "email": "nisa@email.com",
-      "password": "nisa",
-      "role": "user",
-      "id": 7
-    },
-    {
-      "fullName": "masdefrey",
-      "username": "masdefry",
-      "email": "masdefry@mail.com",
-      "password": "masdefry",
-      "role": "user",
-      "id": 8
     }
   ],
   "products": [
@@ -79,7 +31,7 @@
       "productName": "Gula pasir",
       "price": 9100,
       "productImage": "https://d324bm9stwnv8c.cloudfront.net/Pemanis_Rendah_Kalori_Sebagai_Pengganti_Gula_Pasir,_Amankah-halodoc.jpg",
-      "description": "Beras untuk dimasak menjadi nasi.",
+      "description": "Gula pasir sebagai bahan pemanis suatu makanan atau minuman.",
       "category": "bahanpokok"
     },
     {

@@ -45,7 +45,6 @@ class Register extends React.Component {
                 <div class="card-body">
                     <p className="lead text-center">
                         Register now and start shopping in the most affordable ecommerce platform</p>
-                    <form>
                     <div class="form-group">
                         <div class="form-row">
                         <div class="col-md-6">
@@ -77,7 +76,6 @@ class Register extends React.Component {
                     <button onClick={() => this.props.registerUser(this.state)} className="btn btn-primary btn-block">
                         Register
                     </button>
-                    </form>
                     <div class="text-center">
                         <Link class="d-block small mt-3" to="/login">Login Page</Link>
                     </div>
